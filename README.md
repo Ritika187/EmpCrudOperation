@@ -8,7 +8,7 @@
 
 ## It allows you to manage employee records:
 ## ✅ Add | 📋 View | 📝 Update | ❌ Delete
-## ⚙️ Technologies Used
+### ⚙️ Technologies Used
   ## Frontend (React)**
 - **React.js**
 - **Tailwind CSS**
