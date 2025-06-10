@@ -32,4 +32,6 @@
 ---
 
 ### 📁 Project Structure
-<pre> ``` EmpCrudOperation/ ├── crud/ # Spring Boot Backend └── crudFrontend/ # React Frontend ``` </pre>
+<pre> ``` EmpCrudOperation/ 
+          ├── crud/ # Spring Boot Backend 
+          └── crudFrontend/ # React Frontend ``` </pre>
