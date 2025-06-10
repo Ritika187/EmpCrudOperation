@@ -21,3 +21,10 @@
 - **Spring MVC**
 - **MySQL Database**
 - **REST API**
+## ✨ Features
+
+- Add, view, update, and delete employee records
+- RESTful APIs with Spring Boot
+- Responsive UI using React and Tailwind CSS
+- Form validation and error handling
+- Easy integration with SQL databases
