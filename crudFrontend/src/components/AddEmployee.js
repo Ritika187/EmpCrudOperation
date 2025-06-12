@@ -65,7 +65,7 @@ const AddEmployee = () => {
               <input type='number' name='phoneNumber'
               onChange={(e) => handleChange(e)}
               value={Employee.phoneNumber}
-              className='py-1my-2 text-slate-800 rounded' placeholder='Phonenumber'></input>
+              className='py-1 my-2 text-slate-800 rounded' placeholder='Phonenumber'></input>
         </div>
         <div className='flex items-center justify-center gap-4 mt-6'>
               <button 

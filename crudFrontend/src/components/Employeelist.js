@@ -48,27 +48,27 @@ const Employeelist = () => {
             </div>
 
             <div className='mx-64 rounded-xl'>
-                <table className="shadow-lg text-center">
+                 <table className="shadow-lg text-center border-collapse border border-gray-400  min-w-full shadow-md rounded-xl overflow-hidden">
                     <thead className="bg-purple-600 text-white font-semibold">
                         <tr >
-                            <th className='px-5 py-2 uppercase tracking-wide >FirstName'>FirstName</th>
-                            <th className='px-5 py-2 uppercase tracking-wide >FirstName'>LastName</th>
-                            <th className='px-5 py-2 uppercase tracking-wide >FirstName'>Email</th>
-                            <th className='px-5 py-2 uppercase tracking-wide >FirstName'>PhoneNumber</th>
-                            <th className='px-5 py-2 uppercase tracking-wide >FirstName'>Action</th>
+                            <th className='px-5 py-2 uppercase tracking-wide border border-purple-700 '>FirstName</th>
+                            <th className='px-5 py-2 uppercase tracking-wide border border-purple-700 '>LastName</th>
+                            <th className='px-5 py-2 uppercase tracking-wide border border-purple-700 '>Email</th>
+                            <th className='px-5 py-2 uppercase tracking-wide border border-purple-700'>PhoneNumber</th>
+                            <th className='px-5 py-2 uppercase tracking-wide border border-purple-700 '>Action</th>
 
 
                         </tr>
                     </thead>
                     {!loading && (
-                    <tbody className="bg-white/15 text-slate-800">
+                    <tbody className="bg-white/15 text-slate-800 ">
                     {Employees.map((Employee)=>(
-                        <tr key={Employee.id} className="hover:bg-purple-200 hover:text-black">
-                            <td className='whitespace-nowrap' >{Employee.firstName}</td>
-                            <td className='whitespace-nowrap' >{Employee.lastName}</td>
-                            <td className='whitespace-nowrap' >{Employee.email}</td>
-                            <td className='whitespace-nowrap' >{Employee.phoneNumber}</td>
-                           <td className='whitespace-nowrap space-x-2' >
+                        <tr key={Employee.id} className="hover:bg-purple-200 hover:text-black ">
+                            <td className='border border-purple-700 whitespace-nowrap text-left' >{Employee.firstName}</td>
+                            <td className='border border-purple-700 whitespace-nowrap text-left' >{Employee.lastName}</td>
+                            <td className='border border-purple-700 whitespace-nowrap text-left' >{Employee.email}</td>
+                            <td className='border border-purple-700 whitespace-nowrap text-left' >{Employee.phoneNumber}</td>
+                           <td className=' border border-purple-700 whitespace-nowrap space-x-2' >
                                 <button className="bg-blue-500 hover:bg-blue-600 text-white py-1 px-3 rounded-lg transition duration-200"
                                 onClick={(e,id)=> editEmployee(e, Employee.id)}>Edit</button>
 
