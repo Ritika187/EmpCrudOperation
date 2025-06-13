@@ -68,11 +68,11 @@ const Employeelist = () => {
                             <td className='border border-purple-700 whitespace-nowrap text-left' >{Employee.lastName}</td>
                             <td className='border border-purple-700 whitespace-nowrap text-left' >{Employee.email}</td>
                             <td className='border border-purple-700 whitespace-nowrap text-left' >{Employee.phoneNumber}</td>
-                           <td className=' border border-purple-700 whitespace-nowrap space-x-2' >
-                                <button className="bg-blue-500 hover:bg-blue-600 text-white py-1 px-3 rounded-lg transition duration-200"
+                           <td className=' border border-purple-700 whitespace-nowrap space-x-3' >
+                                <button className="bg-blue-500 hover:bg-blue-600 text-white py-1 px-3 m-1 rounded-lg transition duration-200"
                                 onClick={(e,id)=> editEmployee(e, Employee.id)}>Edit</button>
 
-                                <button className="bg-red-500 hover:bg-red-600 text-white py-1 px-3 rounded-lg transition duration-200"
+                                <button className="bg-red-500 hover:bg-red-600 text-white py-1 px-3 m-1 rounded-lg transition duration-200"
                                 onClick={(e,id)=> deleteEmployee(e, Employee.id)}>Delete</button>
                             </td>
                         </tr>
